@@ -1,0 +1,89 @@
+/*---------------------------------------
+------------------------  galeria-------------------------*/
+.conteiner-galeria{
+    width: 85%; 
+    background-color: grey;
+    padding:0px;
+    margin:auto
+    }
+    .galeria{
+    background-color: #dff2fa;
+    position: center;text-align: center;
+    padding: 10px;
+    color: brown;
+    }
+    
+    .columna1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        border-radius: 5%;
+    
+    }
+    div{
+        margin: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    .titulos{
+        width: 320px;
+        background-color: rgb(240, 188, 214);
+        height: 40px;
+        margin: 0px;
+        border-radius: 12px;
+        position: static;
+        text-align: center;
+        padding: 7px;
+    }
+    .titulo2{
+        width: 300px;
+        background-color: rgb(240, 188, 214);
+        height: 40px;
+        margin-left: 20px;
+        border-radius: 12px;
+        position: static;
+        text-align: center;
+    padding:7px;
+    }
+    
+    .uno,  .cuatro, .cinco, .seis{
+        width:320px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .siete, .ocho{
+        width:320px;
+        height: 250px;
+        padding-left: 25px;
+    border-radius: 10px;
+    }
+    .dos{
+        width: 320px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .tres{
+        width: 320px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
+    h2{
+        background-color: #be694e;
+        color: rgb(243, 234, 221);
+        width:170%;
+        padding: 30px;
+        position: center;
+    }
+    /*-------------responsive mobile---------*/
+    @media screen and (max-width:600px){
+        .conteiner-galeria{ width: 100%;background: #f7bfd2; }
+        .galeria{ font-size: 19px;padding: 0;}
+        .columna1{ padding: 0;}
+        .titulos, .titulo2{width: 300px; background: #82c2db;margin: 0;}
+        .uno,  .cuatro, .cinco, .seis{width: 300px;}
+        .siete, .ocho{width: 300px; padding-left: 0;border-radius: 0; }
+        .dos{width: 300px;}
+        .tres{width: 300px;}
+    }
+    

@@ -1,0 +1,126 @@
+/*----------------preguntas frecuentes--------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    background-image: url(
+        'https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1686514880~exp=1686515480~hmac=09fda578a61c367ea4deb01018d7985969a2e3860a937dc62eeb0e40f49a75d5'
+    );
+
+
+}
+
+.container-faq {
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .1);
+    padding: 30px;
+}
+
+.container-faq .title-faq {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+
+.container-faq .item-faq {
+    box-shadow: 0 0 15px -1px black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container-faq .item-faq .question {
+    position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(197, 141, 166);
+    padding: 15px 15px 20px 50px;
+    transition: .4s;
+}
+
+.container-faq .title-faq .question .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(104, 44, 44, 0.2);
+    width: 80px;
+    height: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+
+}
+h3{
+    width:100%;
+    padding-left: 4%;
+}
+.container-faq .item-faq .question .more:hover {
+    box-shadow: 0 0 15px -1px rgba(230, 81, 71, 0.842);
+}
+
+.container-faq .item-faq .question span {
+    left: 10px;
+    font-size: 3rem;
+    top: 8px;
+    opacity: .1;
+    
+}
+
+.container-faq .item-faq .answer {
+    position: relative;
+    padding:  0 20px 0 80px;
+    overflow: hidden;
+    height: 0;
+    transform: .4s;
+}
+
+.container-faq .item-faq .answer p {
+    font-size: 1.1rem;
+}
+
+.container-faq .item-faq .answer span {
+    position: absolute;
+    left: 0px;
+    font-size: 3rem;
+    top: -10px;
+    opacity: .2;
+}
+
+/*-------------responsive mobile---------*/
+@media screen and (max-width:600px){
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .conteiner .row{
+        width: 80%;
+        margin: 0;
+        padding: 2px;
+    }
+    .container-faq .title-faq{
+        margin: 0;
+        font-size: 15px;
+    }
+    .container-faq .item-faq {
+        margin:0;
+        width:100%;
+        height:100%;
+    }
+    .container-faq .item-faq .question {
+        width:100%;
+}
+.container-faq .item-faq .question span{
+    padding: 0;
+    margin: 0;
+}
+.preguntas {
+    font-size: 12;
+}
+}
+
