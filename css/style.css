@@ -1,0 +1,346 @@
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,600&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+/*--------- inicio de header-----*/
+
+.header {
+    display: flex;
+    overflow: hidden;
+    background:rgb(214, 63, 156);
+
+}
+
+.logo{
+/* width: 15%;
+border-radius: 50%; */
+width: 150px;
+height: 150px;
+display: flex;
+
+
+}
+.nav, .logo{
+    display: flex;
+    margin: auto;
+    padding: 40px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+/* ---------- fin de header-------*/
+body{
+    width: 100%;  background: rgb(240, 234, 234);
+}
+*{
+    margin: 0;
+    padding: 0;
+font-family:sans-serif ; 
+}
+/*----contenido de la página de inicio-------*/
+.pagina1{
+width: 100%;
+height: 100%;
+/* height: 450px; */
+background: #82c2db;
+margin: 10px;
+display: inline-flex;
+flex-wrap: wrap;
+padding: 2%;
+
+}
+.texto{
+    color: rgb(214, 69, 76);
+    width: 100%;
+    height: 5%;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial;
+
+}
+.texto2{
+    padding-right: 50%;
+    background: rgb(247, 201, 210);
+    padding: 50px;
+    margin: 30px;
+    border-radius: 15%;
+    width: 60%;
+    
+    
+}
+.confuso{
+    /* width: 420px; */
+    /* height: 410px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+/*--------footer*/
+.footer{
+    background: rgb(236, 22, 108);
+    padding: 30px;}
+.texto4{
+color: white;
+display: flex;
+
+}
+
+
+/*-----  galeria-*/
+.conteiner-galeria{
+width: 80%; 
+background-color: grey;
+padding:0px;
+margin:auto
+}
+.galeria{
+background-color: #dff2fa;
+position: center;text-align: center;
+padding: 15px;
+color: brown;
+}
+
+.columna1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 5%;
+
+}
+div{
+    margin: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.titulos{
+    width: 320px;
+    background-color: rgb(240, 188, 214);
+    height: 40px;
+    margin: 0px;
+    border-radius: 12px;
+    position: static;
+    text-align: center;
+    padding: 7px;
+}
+.titulo2{
+    width: 300px;
+    background-color: rgb(240, 188, 214);
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 12px;
+    position: static;
+    text-align: center;
+padding:7px;
+}
+
+.uno,  .cuatro, .cinco, .seis{
+    width:320px;
+    height: 250px;
+    border-radius: 10px;
+}
+.siete, .ocho{
+    width:320px;
+    height: 250px;
+    padding-left: 25px;
+border-radius: 10px;
+}
+.dos{
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+}
+.tres{
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+}
+.nueve{
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+}
+h2{
+    background-color: #be694e;
+    color: rgb(243, 234, 221);
+    width:170%;
+    padding: 30px;
+    position: center;
+}
+/*-----------------sobre nosotros----------*/
+.pagina4{
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1686514880~exp=1686515480~hmac=09fda578a61c367ea4deb01018d7985969a2e3860a937dc62eeb0e40f49a75d5');
+    width: 1200px;
+    height: 700px;
+    padding:0px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nosotros1{
+color: brown;
+    padding: 5%;
+
+}
+.nosotros3, p {
+    font-size: medium;
+    padding: 20px 10px;
+    margin: 10px;
+
+}
+
+.contacto{
+    background: #ee8dad;
+    width: 100%;
+    height:     25%;
+}
+h4{
+    text-align:relative;
+    padding-left:20%; 
+    font-size:170% ;
+    color: brown;
+}
+.volver{
+border-radius: 10px;
+height:35px;
+margin: 3%;
+
+background-color: crimson;
+}
+.correo{
+border-radius: 10px;
+height:35px;
+background: rgb(238, 58, 103);
+margin: 3%}
+
+/*----------------preguntas frecuentes--------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    background-image: url(
+        'https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1686514880~exp=1686515480~hmac=09fda578a61c367ea4deb01018d7985969a2e3860a937dc62eeb0e40f49a75d5'
+    );
+
+
+}
+
+.container-faq {
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .1);
+    padding: 30px;
+}
+
+.container-faq .title-faq {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+
+.container-faq .item-faq {
+    box-shadow: 0 0 15px -1px black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container-faq .item-faq .question {
+    position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(138, 81, 107);
+    padding: 15px 15px 20px 50px;
+    transition: .4s;
+}
+
+.container-faq .title-faq .question .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .2);
+    width: 80px;
+    height: 80px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+
+}
+h3{
+    width:100%;
+    padding-left: 4%;
+}
+.container-faq .item-faq .question .more:hover {
+    box-shadow: 0 0 15px -1px rgba(230, 81, 71, 0.842);
+}
+
+.container-faq .item-faq .question span {
+    left: 10px;
+    font-size: 3rem;
+    top: 8px;
+    opacity: .1;
+    
+}
+
+.container-faq .item-faq .answer {
+    position: relative;
+    padding:  0 20px 0 80px;
+    overflow: hidden;
+    height: 0;
+    transform: .4s;
+}
+
+.container-faq .item-faq .answer p {
+    font-size: 1.1rem;
+}
+
+.container-faq .item-faq .answer span {
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+    top: -10px;
+    opacity: .2;
+}
+/*------- fin de preguntas frecuentes---*/
+@media(max-width:700px){
+
+    }
+
+.menu_bar {
+    display:none;
+}
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:5px;
+}
+
+header nav ul li a:hover {
+	background:#8c036e;
+}
+    
